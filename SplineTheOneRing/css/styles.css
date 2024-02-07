@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+
+@font-face {
+    font-family: 'middleearth';
+    src: url(../assets/middleearth.ttf);
+    font-weight:normal;
+    font-style:normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    z-index: 9999;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContent{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin: 20px;
+    color: #FBC841;
+    cursor: pointer;
+    font-family: 'middleearth';
+    cursor: pointer;
+}
+
+nav img{
+    height: 70px;
+    width: 70px;
+}
+
+.mainContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+body {
+    background: #000 url("../images/wallpaper.png") fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.yoyo{
+    height: 100vh;
+}
+
+.container1{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ringContainer{
+    width: 50%;
+    height: 100vh;
+    z-index: 999;
+}
+
+
+
+.textContainer{
+    width: 50%;
+
+}
+
+.textContainer .title .titleText{
+    color: #FBC841;
+    font-size: 3em;
+    font-family: 'middleearth';
+}
+
+.textContainer .title p{
+    color: white;
+    margin-top: 15px;
+}
+
+.titleP{
+    line-height: 1.6;
+}
+
+
+.buttonContainer{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: #FBC841;
+    color: #000;
+    border: black 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: 'middleearth';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    z-index: 9999;
+}
+
+.button:hover {
+    background-color: #DAA520;
+}
+
+.button:active {
+    background-color: #B8860B;
+}
+
+
+.button:nth-child(1){
+    margin-right: 20px;
+}
+
+.mainContentContainer{
+    height: 300vh;
+}
+
+
+
+.titleP{
+    line-height: 1.6;
+}
+
