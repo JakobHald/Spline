@@ -55,7 +55,7 @@ nav img{
     width: 70px;
 }
 
-.mainContainer {
+.section1 {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -96,7 +96,6 @@ body {
 
 .textContainer{
     width: 50%;
-
 }
 
 .textContainer .title .titleText{
@@ -159,3 +158,83 @@ body {
     line-height: 1.6;
 }
 
+.section2{
+    width: 100%;
+    height: 70vh;
+}
+
+.container2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer2{
+    width: 50%;
+}
+
+.textContainer2 .title{
+    color: white;
+}
+
+.textContainer2 .title .titleText{
+    color: #FBC841;
+    font-size: 3em;
+    font-family: 'middleearth';
+}
+
+
+
+.textContainer2 {
+    width: 50%;
+}
+
+.textContainer2 .title {
+    color: white;
+}
+
+.textContainer2 .title .titleText {
+    color: #FBC841;
+    font-size: 3em;
+    font-family: 'middleearth';
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 1200px) {
+
+    .section1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+
+   
+
+    .button:nth-child(1){
+        margin-right: 0px;
+    }
+
+    .container1{
+        width: 70%;
+        margin-top: -100px;
+    }
+
+    
+
+    .textContainer{
+        width: 100%;
+    }
+
+    .buttonContainer {
+        flex-wrap: wrap;
+    }
+
+    .button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
